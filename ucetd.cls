@@ -21,7 +21,7 @@
 % Default copyright text
 \newcommand{\etdCopyrightText}{
 	\null\vfill
-	\centerline{Copyright \copyright\ \number\year\ by \@author}
+	\centerline{Copyright \copyright\ 2019 by Lauren Elizabeth Blake}
 	\centerline{All Rights Reserved}
 	\center{Freely available under a \href{https://creativecommons.org/licenses/by/4.0/}{CC-BY 4.0 International license}}
 	\vskip 15pt\relax
@@ -63,7 +63,7 @@
 			\rule{0in}{0.55in} % Artificial extra [old=0.95in] margin. Why not vspace?
 			THE UNIVERSITY OF CHICAGO\\
 			\vspace{0.8in}
-			\MakeUppercase{\@title}\\
+			FUNCTIONAL GENOMICS APPROACHES TO UNDERSTANDING HUMAN COMPLEX TRAITS AND DISEASES\\
 			\vspace{0.8in}
 			A DISSERTATION SUBMITTED TO\\
 			THE FACULTY OF THE DIVISION OF THE \MakeUppercase{\@division}\\
@@ -73,13 +73,12 @@
 			\ \\
                         % My degree is being granted by the Committee on Genetics.
 			% DEPARTMENT OF \MakeUppercase{\@department}\\
-			COMMITTEE ON \MakeUppercase{\@department}\\
+			COMMITTEE ON HUMAN GENETICS\\
 			\vspace{0.8in}
-			BY\\
-			\MakeUppercase{\@author}\\
+			BY LAUREN ELIZABETH BLAKE\\
 			\vspace{0.8in}
 			CHICAGO, ILLINOIS\\
-			\MakeUppercase{\@date}
+			DECEMBER 2019
 			\vspace*{0.45in}
 		\end{center}
 	\end{titlepage}
