@@ -97,7 +97,7 @@ One way to maintain conserved inter-tissue expression differences could be throu
 \begin{table}
 \centering
 \includegraphics[width=6in]{img/ch02/Tables_1_2.pdf}
-\caption[Table Legend.]{\textbf{Table Legend.} Table 1: Pairwise differentially expressed (DE) genes at FDR 1\%. Table 2: Pairwise differentially methylated regions (DMRs) in autosomal chromosomes, percentage out of total pairwise methylated regions)
+\caption[Pairwise DE genes and DMRs.]{\textbf{Pairwise DE genes and DMRs.} Table 1: Pairwise differentially expressed (DE) genes at FDR 1\%. Table 2: Pairwise differentially methylated regions (DMRs) in autosomal chromosomes, percentage out of total pairwise methylated regions)
 }
 \label{fig:ch02-table}
 \end{table}
@@ -347,10 +347,71 @@ Using the same method to identify DMRs across tissues, we then identified thousa
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=5in]{img/ch02/SF11.pdf}
+\label{fig:check1}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
 \caption[S11. Interspecies DNA methylation and gene expression levels (FDR = 0.05 and FSR = 0.05), in humans and rhesus macaques.]{\textbf{S11. Interspecies DNA methylation and gene expression levels (FDR = 0.05 and FSR = 0.05), in humans and rhesus macaques.} Difference in species effect size before and after accounting for DNA methylation levels in genes (A) DE and (B) non-DE in the human and rhesus heart, (C) DE and (D) non-DE in the human and rhesus kidney, (E) DE and (F) non-DE in the human and rhesus liver, (G) DE and (H) non-DE in the human and rhesus lung. (I) The percentage of genes for which the evidence for inter-species differences in gene expression levels is reduced after correcting for DNA methylation levels in humans and rhesus macaques.}
-\label{fig:tailleux20082}
+\label{fig:check2}
 \end{figure}
 
 \subsection{Supplemental Tables}
 
+\begin{table}
+\caption[S1. Recorded variables of interest]{\textbf{S1. Recorded variables of interest.} Variables of interest related to (A) samples, (B) RNA and (C-E) DNA methylation preparation, processing and sequencing.}
+\label{tab:ch02-s1}
+\end{table}
 
+\begin{table}
+\caption[S2. Normalized gene expression levels.]{\textbf{S2. Normalized gene expression levels.} TMM- and cyclic loess-normalized log2 counts per million (CPM) values for 12,184 orthologous genes to be used in downstream analyses.}
+\label{tab:ch02-s2}
+\end{table}
+
+\begin{table}
+\caption[S3. Technical factors and matched individuals analysis.]{\textbf{S3. Technical factors and matched individuals analysis.} A-B. Results from gene expression levels. (A) Benjamini-Hochberg adjusted P values from from regression models with gene expression level PCs 1-5 as response variables and recorded biological and technical variables as explanatory variables. (B) Benjamini-Hochberg adjusted P values from regression models with species and tissue as the response variables and technical factors of interest as the explanatory variables. C-D. Results from global smoothed DNA methylation levels. (C) Benjamini-Hochberg adjusted P values from from regression models with DNA methylation level PCs 1-5 as response variables and recorded biological and technical variables as explanatory variables. (D) Benjamini-Hochberg adjusted P values from regression models with species and tissue as the response variables and technical factors of interest as the explanatory variables. E-F. DE in matched versus unmatched donors. (E) Individuals and genes. (F) Number of true versus false positive genes in subset data.}
+\label{tab:ch02-s3}
+\end{table}
+
+\begin{table}
+\caption[S4. Pairwise inter-tissue and interspecies differential expression statistics.]{\textbf{S4. Pairwise inter-tissue and interspecies differential expression statistics.} (A) Differential expression statistics from limma and ash for each pairwise comparison. This includes the Gene name, ENSG gene ID (Gene), log2 fold change (logFC), average expression level (AveExpr), t-statistic (t), P value (P.value), q-value (adj.P.Val), log-odds (B), an estimate of standard error before adaptive shrinkage (sebetahat), local false sign rate (lfsr), local false discovery rate using estimates from adaptive shrinkage (lfdr), q-value based on the values estimated by adaptive shrinkage (qvalue), s-value based on the values estimated by the adaptive shrinkage (svalue), an adaptive shrinkage-based estimate of beta (beta\_est), and an adaptive shrinkage-based estimate of the standard error (se\_est) in each pairwise comparison. (B) Number of pairwise inter-tissue and inter-species DE genes at different FDR and false sign rate (FSR) thresholds. FSR is calculated using an 
+adaptive shrinkage method. (C) Number of genes where at least 2 samples have log2(CPM) greater than 1.5 (out of 12,184 genes).}
+\label{tab:ch02-s4}
+\end{table}
+
+\begin{table}
+\caption[S5. The most common pattern of inter-tissue gene expression differences is conservation between species is robust.]{\textbf{S5. The most common pattern of inter-tissue gene expression differences is conservation between species is robust.} The observed overlap in the number of pairwise inter-tissue DE genes.}
+\label{tab:ch02-s5}
+\end{table}
+
+\clearpage
+
+\begin{table}
+\caption[S6. Pairwise tissue-specific DE genes are conserved.]{\textbf{S6. Pairwise tissue-specific DE genes are conserved.} The number of tissue-specific genes using a stringent definition (see Methods) across various thresholds.}
+\label{tab:ch02-s6}
+\end{table}
+
+\begin{table}
+\caption[S7. Possible functional interpretations of genes.]{\textbf{S7. Possible functional interpretations of genes.} Gene Ontology (GO) results for conserved genes that were upregulated or downregulated only in one tissue. Results in the (A) heart, (B) kidney, (C) liver, and (D) lung. Within each table, columns A-F represent enriched GO categories that are upregulated or downregulated only in one tissue at a less stringent definition and G-K are at a more stringent definition. (E) Average variance in interindividual gene expression levels. (F) Results from transcription co-transcription networks. (G) Results from overlap with PPI.}
+\label{tab:ch02-s7}
+\end{table}
+
+\begin{table}
+\caption[S8. Group-by-tissue interactions found in Great Apes and in humans only. ]{\textbf{S8. Group-by-tissue interactions found in Great Apes and in humans only. } (A) Number of interactions across FDR and FSR thresholds. (B) GO enrichments.}
+\label{tab:ch02-s8}
+\end{table}
+
+\begin{table}
+\caption[S9. Summary information for pairwise T-DMRs and S-DMRs.]{\textbf{S9. Summary information for pairwise T-DMRs and S-DMRs.} (A) Number of pairwise T-DMRs and S-DMRs (t-statistic greater than 4.6 or less than negative 4.6). (B) Overlap of T-DMRs with annotated regions, relative to 100 sets of random regions of the same length and CpG density as the T-DMRs.}
+\label{tab:ch02-s9}
+\end{table}
+
+\begin{table}
+\caption[S10. Pairwise T-DMRs and tissue-specific DMRs are conserved.]{\textbf{S10. Pairwise T-DMRs and tissue-specific DMRs are conserved.} (A) Conserved pairwise T-DMRs and (B) conserved tissue-specific DMRs.(C) Percentage overlap with H3K27Ac. (D) Gene Ontology results.}
+\label{tab:ch02-s10}
+\end{table}
+
+\begin{table}
+\caption[S11. Percentage of genes in which gene expression differences might, at least in part, be explained by DNA methylation levels.]{\textbf{S11. Percentage of genes in which gene expression differences might, at least in part, be explained by DNA methylation levels.} A-B. Percentages for interspecies DE and non-DE genes in (A) humans and chimpanzees and (B) humans and rhesus macaques. C-E. Percentages for inter-tissue conserved DE, non-conserved DE, and non-DE genes in (C) humans, (D) chimpanzees and (E) rhesus macaques. (F) Gene Ontology results.}
+\label{tab:ch02-s11}
+\end{table}
