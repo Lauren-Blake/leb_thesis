@@ -71,9 +71,9 @@
 			IN CANDIDACY FOR THE DEGREE OF\\
 			\MakeUppercase{\@degree}\\
 			\ \\
-                        % My degree is being granted by the Committee on Genetics.
+                        % My degree is being granted by the Department of Human Genetics.
 			% DEPARTMENT OF \MakeUppercase{\@department}\\
-			COMMITTEE ON HUMAN GENETICS\\
+			DEPARTMENT OF HUMAN GENETICS\\
 			\vspace{0.8in}
 			BY LAUREN ELIZABETH BLAKE\\
 			\vspace{0.8in}
