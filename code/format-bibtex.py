@@ -15,6 +15,8 @@ script completes successfully. If the script fails due to an error,
 the original file is unmodified and a temporary file of the same name
 is available in /tmp. The last entry in this temporary file is the
 last bibtex entry that was successfully formated.
+
+I added line 27 to the script
 """
 
 import os
@@ -22,6 +24,7 @@ import sys
 import bibtexparser as bib
 import shutil
 
+sys.setrecursionlimit(1500)
 bibtex_input = sys.argv[1]
 assert os.path.isfile(bibtex_input), "bibtex file does not exist"
 

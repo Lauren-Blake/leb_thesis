@@ -2,15 +2,142 @@
 
 \section[Abstract]{Abstract\footnotemark}
 
-Maintenance and recovery after hospitalization for anorexia nervosa (AN) is challenging, and up to 45\% of patients are rehospitalized. Better predictions of outcome post-discharge-- specifically negative outcomes, which are less studied than who does well-- could enable earlier and more personalized interventions. To develop predictive models, we obtained clinical, demographic, and biological information from 29 females with AN over 15 years-old at admission, discharge, and 3 timepoints post-discharge from the UNC Eating Disorder Unit. We could not roboustly predict BMI, change in BMI, or rehospitalization at any time point. Prediction in this space will
+Maintenance and recovery after hospitalization for anorexia nervosa (AN) is challenging, and up to 45\% of patients are rehospitalized. Better predictions of outcomes post-discharge?specifically for those at risk for poor outcomes, which are less studied than who does well-- could enable earlier and more personalized interventions. To develop predictive models, we used clinical, demographic, and biological information that was available in 29 females with AN at hospital admission, discharge, and 3 timepoints post-discharge from the UNC Eating Disorder Unit. We could not robustly predict body mass index (BMI), change in BMI, or rehospitalization at any time point. Based on these analyses, we suggest a new framework for predicting treatment response in individuals with anorexia nervosa.
 
-Our findings around clinical outcome, however, point to new areas for research. Consistent with previous findings, BMI at discharge is well correlated with BMI post-discharge (Pearson's r = 0.60, 0.53, 0.41 for 3-, 7- and 12-months post-discharge, respectively, P \textless 0.01 for each). Surprisingly, we found that BMI at discharge is lowly correlated with rate of BMI change (r = 0.19, 0.10, -0.05, respectively, P \textgreater 0.29 for each), which was consistent in an independent cohort. These results suggest that change in BMI may play an important role in rehospitalization. Based on our results, we suggest a framework for predicting treatment response in individuals with anorexia nervosa.
+Our findings concerning clinical outcome also point to new areas for research. Consistent with previous findings, BMI at discharge is well correlated with BMI post-discharge. Unexpectedly, we found that BMI at discharge showed minimal correlations with rate of BMI change, and this effect  was replicated in an independent cohort. These results suggest that change in BMI may play an important role in rehospitalization, in a way that is distinct from absolute BMI. 
 
 \footnotetext{Citation for chapter: Lauren E Blake, Rachel Guerra, Christopher Hubel, Laura M. Thorton, Tae Kim, Yuxin Zou, Patrick F. Sullivan, Cynthia M. Bulik, Jessica H. Baker. Integrating clinical and biological data to predict treatment response in individuals with anorexia nervosa. \textit{Manuscript in prep.}}
 
+\section{Introduction}
+\subsection{The importance of predicting outcome for individuals with anorexia nervosa (AN)}
+Anorexia nervosa (AN) is a heritable eating disorder, in which symptoms include low body weight and an extreme fear of gaining weight \cite{RN2668, RN4522, RN4521, RN4523}. Individuals with AN at extremely low body weights (e.g. < 75\% of ideal body weight) are often hospitalized in specialized units for nutritional rehabilitation \cite{RN2668, RN4943}. After refeeding and weight gain in the hospital, these individuals are discharged to lower levels of care \cite{RN2668, RN1053}.
+Maintenance and recovery after hospitalization for AN is challenging, and up to 45\% of patients are rehospitalized \cite{RN4941, RN4940}. Rehospitalization generally occurs within 18 months of discharge \cite{RN4940}. Underscoring the severity and chronicity of disorder, over 20\% exhibit a severe and enduring course of AN \cite{RN4948, RN4946}. Better predictions of outcome post-hospital discharge could enable earlier and more personalized interventions \cite{RN4971}. In particular, understanding those with poor outcomes, who are less studied than individuals that do well, is important \cite{RN4948, RN2457, RN4947, RN4956}. In particular, prediction is a critical step in determining earlier interventions and developing more personalized therapies for AN. 
 
+\subsection{Challenges for predicting outcomes in AN} 
+While prediction has important clinical implications, building robust predictive models of AN outcome has been extremely difficult. One challenge is that the field lacks consensus on which outcome(s) to predict. For example, AN symptoms or diagnosis criteria are frequently used \cite{RN4948, RN5049}. Post-discharge BMI has also been studied \cite{RN5048}, but the clinical utility of BMI in AN is somewhat uncertain \cite{RN5050}. Other studies have attempted to predict ``weight relapse'', but since there is no consensus definition for weight relapse \cite{RN4543}, this endpoint is difficult to study in a reproducible way. Few studies have focused on rehospitalization as an endpoint \cite{RN4941}. 
+Additionally, behavioral, social, and psychological factors vary in their ability to predict AN outcomes \cite{RN4968}. The lack of subjective predictors has led to the investigation of objective predictors of outcome in individuals with AN \cite{RN5047, RN4973}. Most studies incorporating biological information have focused on weight or hormone levels during hospitalization \cite{RN5047, RN4960}. Hormone levels-- including leptin, ghrelin, and insulin-like growth factor-1-- are not consistently associated with outcome \cite{RN4975, RN4969, RN4977, RN4972, RN4974}. 
+Whether studies use subjective and objective predictors, most have very small sample sizes (generally <50 individuals) and do not attempt to replicate in another dataset \cite{RN4941, RN4942, RN4940}. Both of these factors likely contribute to the lack of reproducibility of these predictors \cite{RN5051}. 
+	
+\subsection{Gene expression levels as predictors of outcome}
+Other psychiatric subfields have explored genome-wide measures, including gene expression levels, as objective predictors for disorder diagnosis and treatment \cite{RN5039, RN5042, RN5043, RN5041}. Gene expression levels are tested as biomarkers because they are quantitative, relatively unbiased, and relatively easy to obtain \cite{RN5044}. For an AN cohort, blood-based measurements are particularly attractive, as blood is drawn at admission, at discharge, and during hospitalization as part of the standard of care. Gene expression levels assessed from blood in individuals with AN at admission and discharge was tested in a pilot study \cite{RN1411}. 
+We investigated gene expression levels in whole blood as candidate biomarkers for outcomes within 1 year post-discharge. To develop predictive models, we obtained clinical, demographic, and biological information from 29 females with AN at admission, discharge, and 3 timepoints post-discharge from the Eating Disorder Unit (EDU) at the University of North Carolina. Unfortunately, we could not predict BMI, change in BMI, or rehospitalization at any time point in a replicable manner. However, we do demonstrate a low correlation between discharge BMI and change in BMI post-discharge, which we replicated in an independent cohort. This result has strong implications for the definition of outcome in predictive models. Overall, the results of this pilot investigation will inform the design of future studies predicting AN patient outcomes. 
+
+\section{Results}
+\subsection{Study design and sample characteristics} 
+We performed a longitudinal study of individuals with AN (females over 15 years of age) hospitalized in the EDU (Figure 1A; Methods). We collected information at 5 time points: admission, discharge, 3 months post-discharge, 7 months post-discharge, and 12 months post-discharge (Figure 1B; Supplemental Table 1). At EDU admission, we collected extensive clinical and demographic information, as well as whole blood samples from 55 individuals (Figure 1B, Supplemental Table 1; Methods). Within 24 hours of collection, whole blood samples were sent for laboratory analysis, including complete blood count (CBC), metabolic panel, and RNA-sequencing (Methods). Each individual underwent inpatient treatment at the EDU for at least 7 days (Figure 1B) \cite{RN1411}. At discharge, we again collected clinical information and a whole blood sample (Figure 1A, Supplemental Table 1). At 3, 7, and 12 months post-discharge, we collected clinical information, including weight, eating disorder severity, and treatment status (Figure 1A, 1C-D; Supplemental Table 1). Additional collection and patient information can be found in the Methods and Supplemental Table 1.  
+
+
+\begin{figure}[!htb]
+\centering \includegraphics[width=6.5in]{img/ch04/Figure_1.pdf}
+\caption[Study design and information about nutritional rehabilitation.]{
+  \textbf{Study design and information about nutritional rehabilitation.} (A) Study design and outcomes measured. (B) Selected sample information taken during hospitalization. (C) BMI at 3-months post discharge (D) Change in BMI/month from discharge over the next 3 months.}
+\label{fig:study4}
+\end{figure}
+
+\subsection{Nutritional rehabilitation treatment induces significant biological changes}
+We sought to characterize the variation in clinical and gene expression measurements across our patients and timepoints.  The majority of patients gained weight during hospitalization, and weight gain increased with time spent in the EDU (Figure 2A). This change was also reflected in the global survey of gene expression variation (Figure 2B; Methods). When we performed a principal component analysis (PCA), we found that the first principal component (PC) was correlated with RIN score (Figure 2B; Supplemental Table 1; regression of PC1 by RIN, r = 0.34). PC2 is correlated with time, as well as age of admission and 5 of the CBC measures (regression of PC2 by time, r = 0.23 and r = 0.24-0.37, respectively). This indicates that sample quality, including cell type heterogeneity, is a major factor for gene expression variation in our data (Supplemental Table 1).
+
+We used a linear model framework to identify gene expression changes between admission and discharge (Methods). We classified 551 genes as differentially expressed (DE) between timepoints (at FDR of 5\%; Supplemental Table 2). Using Gene Ontology (GO), we found that many of these genes are enriched in metabolic pathways (Supplemental Table 2). When we included weight change as a covariate, only 8\% of these genes remain DE, suggesting a strong genomic response to nutritional rehabilitation and, potentially, subsequent weight gain (Supplemental Table 2). 
+
+\begin{figure}[!htb]
+\centering \includegraphics[width=6.5in]{img/ch04/Figure_2.pdf}
+\caption[Biological samples at admission and discharge.]{
+  \textbf{Biological samples at admission and discharge.} (A) Patient weight gain is highly correlated with number of days in the EDU. The blue line is a best-fit linear regression line. Grey shading is the 95\% confidence interval. (B) A global survey of gene expression variation (n = 43 individuals in the 3 months post-discharge).}
+\label{fig:bio4}
+\end{figure}
+
+\subsection{Characterizing post-discharge outcomes}
+
+We then sought to understand the impact of clinical variation on patient outcome. We considered three metrics for post-discharge outcome: BMI, change in BMI/month, and rehospitalization (Figure 1C-D, Methods).  Most individuals in our study continued to increase in BMI post-discharge, particularly in the first 7 months post-discharge (84\%, 79\%, and 75\%, at 3-, 7-, and 12-months post-discharge, respectively; Supplemental Table 1). The average change in BMI/month were also positive (Supplemental Table 1). Unsurprisingly, a larger percentage of individuals were rehospitalized due to eating disorder symptoms later in the time-course than the first 3 months (15-31\%; Supplemental Table 1).
+
+We next focused on outcomes for individuals that discharged against medical advice (AMA), a group of particular interest to AN clinicians. Interestingly, individuals gained similar amounts of weight in the hospital regardless of AMA discharge status.  However, individuals that discharged AMA were more likely to lose weight in the next 3 months than individuals that did not discharge AMA (P \textless 0.05, Figure 3).  
+
+\begin{figure}[!htb]
+\centering \includegraphics[width=6.5in]{img/ch04/Figure_3.pdf}
+\caption[AMA Discharge Status.]{
+  \textbf{AMA Discharge Status} Individuals that discharged AMA were more likely to lose weight over the next 3 months than individuals that did not discharge AMA.. }
+\label{fig:class-exp}
+\end{figure}
+
+\subsection{Variation in gene expression levels does not robustly predict variation in any outcome }
+
+Finally, we sought to predict patient outcome based on clinical and gene expression data.  We implemented a support vector machine-based model from machine learning to predict individual outcomes using gene expression profiles \cite{JSSv011i09}. Our model contained 1000 genes that the expression levels were most highly associated with, along with 8 additional clinical and technical variables (Methods). Due to extreme physiological changes during nutritional rehabilitation (Figure 2A), we included only discharge gene expression levels. We would ideally have accounted for overfitting by building the predictive model on our data set and then validated this model on a data set collected independently. However, we were unable to acquire an analogous data set with gene expression levels and outcomes post-discharge. Therefore, we initially focused on BMI 3 months post-discharge. Specifically, we constructed a model using 29 individuals for which we had data from each time point. We then tested the model on an additional 12 individuals from our study with missing data at later time points (Figure 1A).  Using this strategy, we were unable to reliably predict BMI 3 months post discharge (R \textless 0). We repeated this process using change in BMI/month over the first 3 months post-discharge, and also could not predict this outcome.  We attribute these results to a small sample size.
+
+In a model without gene expression levels, BMI at discharge was a significant predictor for BMI 3 months post-discharge (Figure 4A), but not change in BMI/month over the same time period (Figure 4B). When we investigated this trend further, we found that BMI at discharge is lowly correlated with rate of BMI change (r = 0.19, 0.10, -0.05, respectively, P \textgreater 0.29 for each time point). This pattern could not be explained by rehospitalization status (Figures 4B-C). This low correlation replicated in an independent cohort of individuals with AN treated at the University of Pittsburgh Medical Center (Methods, P \textgreater  0.35). Overall, these results suggest that discharge BMI alone could be used to predict BMI range post-discharge, but can not be used to determine whether an individual will increase or decrease in BMI post-discharge. 
+
+\begin{figure}[!htb]
+\centering \includegraphics[width=6.5in]{img/ch04/Figure_4.pdf}
+\caption[Relationship between BMI at discharge and outcomes.]{
+  \textbf{Relationship between BMI at discharge and outcomes.} (A) Consistent with previous findings, BMI at discharge is well correlated with BMI post-discharge (Pearson?s r = 0.60, 0.53, 0.41 for 3-, 7- and 12-months post-discharge, respectively, P \textless 0.01 for each).  (B) BMI at discharge is lowly correlated with BMI change/month (r = 0.19, 0.10, -0.05, respectively, P \textgreater 0.29 for 3-, 7-, and 12-months post-discharge), which replicated in an independent cohort from the University of Pittsburgh. (C) As expected, the increase in BMI/month is greater in individuals that were not rehospitalized within 3 months than those people that were rehospitalized. }
+\label{fig:class-exp}
+\end{figure}
+
+
+\section{Discussion}
+Over 20\% of individuals hospitalized with AN are re-hospitalized within 1 year \cite{RN4941}. This cycle creates a ``revolving door'' phenomenon in care that is financially and psychologically burdensome for patients and families. Many studies have identified differences in clinical and biological factors that are associated with differences in outcomes \cite{RN4947, RN4958, RN4539}. Therefore, a natural next step is predicting post-discharge outcome. Indeed, robust prediction is extremely important for earlier and more targeted intervention. In addition, predictive models could help determine the level of care needed after hospital discharge and be used to educate patients and families about their personal risk for a given outcome.
+
+Despite its potential to impact patient care, developing robust predictive models of AN outcome has proven exceptionally difficult. This lack of robustness could be driven by challenges with outcome (response variables), predictor variables, or study design. Therefore, our original goal was to identify genes whose expression levels were predictive of outcome within 1 year of hospital discharge. While we failed to meet this objective, this pilot study highlights key considerations for future AN outcome prediction studies. 
+
+\subsection{Prioritize defining measurable, meaningful, and clinically actionable outcomes}
+
+A response variable should be measurable, meaningful and clinically actionable. For example, in the field of cardiology, there is a calculator for the 10-year risk of heart attack \cite{RN5045}. In AN, AN diagnosis, weight, or BMI post-discharge are used \cite{RN4947}. Although BMI can be easily measured, the meaning is less clear \cite{RN4498}. For BMI post-discharge to be used as an outcome, first a reproducible relationship between BMI and AN severity should be established.  
+
+Recognizing that change in BMI might be more important than absolute BMI, other studies have attempted to predict ``weight relapse''. However, there is no consistent definition of weight relapse in the field \cite{RN4543}. Rather than pick a definition of weight relapse, we decided to predict change in BMI/month. Admittedly, this value can be easily calculated but its implications are currently unknown. 
+
+There is some literature to suggest change in weight is meaningful. For example, recent studies suggest that a rapid increase in weight post-discharge is more highly correlated with BMI after 1 year \cite{RN4944}.  Consistent with previous studies \cite{RN5069, RN4961}, BMI at discharge is significantly associated with BMI post-discharge but not change in BMI/month (Figure 4). These results suggest that we can currently predict the approximate BMI of an individual post-discharge, but not whether patients will increase or decrease weight over time. This is a subtle but important distinction because it means that factors that predict post-discharge BMI (such as discharge BMI) may not predict the direction of change in BMI. Future studies that set out to predict BMI post-discharge should also attempt to predict change in BMI post-discharge. 
+
+An outcome that may be clinically actionable is risk of rehospitalization \cite{RN4941, RN4942, RN4940}. Rehospitalization is a clearly-defined endpoint. Furthermore, earlier and more frequent intervention at lower levels of care could help prevent rehospitalization. While higher risk of rehospitalization may be clinically actionable, more research needs to be done to assess the reproducibility of rehospitalization risk. This work is particularly important in the United States, due to the influence of health insurance plans on whether an individual with AN enters inpatient treatment. To decrease the influence of insurance on outcome, one area to explore could be the risk of a particular eating disorder related symptoms, such as body mineral density or the risk for a cardiac incident \cite{RN4971, RN4945, RN4970, RN4963}.  
+
+\subsection{The importance of study design, including replication}
+Even if we are able to find an appropriate outcome, current sizes of AN studies make it difficult to establish robust relationships between predictors and outcomes. Therefore, it is important for eating disorder researchers to collect the same predictors (phenotypes) and outcome information. This consistency will allow for replication using data from multiple centers, as we did with data from the University of Pittsburgh Medical Center. It is also important for metadata (including technical variables) to be collected and made available, particularly in eating disorder genomic studies \cite{RN4569}. 
+
+Another course of action to be implemented in parallel is to use larger scale data, such as those from electronic health records or national registries, to generate hypotheses \cite{RN4535, RN5053}. Then, these hypotheses could be rigorously tested in smaller, more well controlled studies with deep phenotype information.  
+
+Overall, without progress in the areas of outcomes and study design, it is unclear whether any collected biological measure (e.g. hormone levels, gene expression levels, etc.) will robustly predict AN outcome post-discharge. Working through these challenges will enable prediction that impacts the care of individuals with AN.
+
+\section{Methods}
+
+\subsection{Participants and Ethics Approval}
+Participants were females over 15 years old who met DSM-5 Criteria for AN. All individuals were admitted for inpatient treatment at the Eating Disorder Unit (EDU) at the University of North Carolina at Chapel Hill Center of Excellence for Eating Disorders. This study was approved by the Biomedical Institutional Review Board at the University of North Carolina at Chapel Hill. All participants provided written informed consent. For information regarding the replication data collected at the University of Pittsburgh Medical Center, see \cite{RN5069}. 
+
+\subsection{Clinical and Whole Blood Information} 
+
+Individual's weight and height was collected during hospitalization, and BMI calculated, in the same manner as \cite{RN1411}. Additional information was collected from patient surveys and electronic health record (EHR) access. Post-discharge follow up information was collected via phone calls by trained research assistants. 
+ 
+Blood draws were made as described in \cite{RN1411}. 1 of the 2 tubes of whole blood was mailed to the NIMH Center for Collaborative Genomics on Mental Health Disorders at Rutgers University for RNA extraction and processing (see Supplemental Table 1). The University of North Carolina High Throughput Sequencing Facility added barcode adaptors and sequenced the 50 base pair paired-end RNA-seq libraries on the Illumina HiSeq 2500 on two flowcells (see Supplemental Table 1). After sequencing, we confirmed that the raw RNA-seq reads of high quality using FastQC (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/). 
+
+\subsection{Quantification, normalization, transformation, and QC of the RNA-seq reads}
+As recommended by the Lineberger Bioinformatics Core, reads were mapped to hg38 (GRCh38.p2, Gencode Release 22) using STAR (v2.6.0a) \cite{RN5081, RN5080} and quantified these transcripts from these files using Salmon (version 0.8) \cite{RN5082}. The R/Bioconductor package tximport was used to associate transcripts to genes \cite{RN5083}. TMM-normalized log2(CPM) gene expression values were calculated \cite{RN1341}. To assess the data quality, we performed Principal Components Analysis (PCA) on the
+normalized log2(CPM) values. After recording clinical, biological, demographic, and technical factors, we explored the relationship between these factors and the PCs in the same manner as \cite{RN4207}.
+
+\subsection{Pairwise differential expression (DE) analysis and weighted gene co-expression network (WGCNA) construction}
+Differential expression analysis was performed using a linear model-based empirical Bayes method using the R packages limma+voom \cite{RN1341, RN1398, RN1368}. For the initial pairwise differential expression comparison, the timepoint and 8 other variables were modeled as fixed effects, and individual as a random effect. A second comparison was made with the same model, but also including weight change as a fixed effect. For each pairwise DE test, multiple testing was corrected for using the Benjamini and Hochberg false discovery rate \cite{RN1372}. Gene Ontology (GO)\cite{RN1378} was implemented as described in \cite{RN4207}. The CRAN/R package WGCNA \cite{RN5114} was utilized to construct networks for each set of DE genes (FDR-adjusted P value \textless 0.01), using the default parameters. 
+
+\subsection{Choice of outcomes}
+First, we needed to determine which outcome to predict. We initially considered looking at trajectories. These trajectories were inconsistent (e.g. very few individuals that consistently gained consistently or lost during the 1 year post-discharge). Then, we considered moments of the BMI distribution from discharge to 12 months post-discharge. Average weight (discharge to 12 months post-discharge) is hard to interpret clinically. Due to weight fluctuations and lack of clinical support, we chose not to construct a cut off for the BMI change that would be considered significant. Therefore, we chose to focus on BMI at 3-, 7-, and 12-months post-discharge and change in BMI/month between these three time points as target variables.
+
+\subsection{Attempts to build predictive models}
+
+For each outcome, we used LASSO regression \cite{RN5171, RN5170} to determine the top 1000 genes in which variation in expression levels were most predictive of the particular outcome. We also included 8 additional clinical and technical variables in our support vector machine-based models. The clinical and technical covariates were significantly associated (P \textless 0.05) with discharge gene expression levels PCs 1, 2, 3, 4, or 5: age at admission, absolute monophil count, absolute neutrophil count, absolute eosinophil, absolute leukocyte count, RIN score, and binge eating status. We used the 29 individuals for which we had data from each time point in the models. The support vector machine (SVM)-based models were generated using the R package e1071 (https://cran.r-project.org/web/packages/e1071/vignettes/svmdoc.pdf) \cite{RN5212, JSSv011i09}. The models were tested on the additional 12 individuals from the 3 months post-discharge timepoint.  
+
+\section{Acknowledgements}
+
+I thank members of the Gilad and Stephens labs and the UNC Center of Excellence for Eating Disorders for helpful discussions and comments on the manuscript. I also thank the participants and their families for participation in this study. 
 
 \subsection{Author contributions}
 
 JHB conceived of the study and designed the experiments, with input from PFS and CMB. RG and JHB collected the data. LEB analyzed the data, with input from CH, LMT, PFS, TK, YZ, and CMB. LEB and JHB wrote the paper. 
 
+
+
+\section{Supplementary Tables}
+
+\begin{table}[!htb]
+\caption[S1. Patient and collection information. ]{\textbf{S1. Patient and collection information.}   }
+\label{tab:ch04-s1}
+\end{table}
+
+\begin{table}[!htb]
+\caption[S2. Information about genes DE between admission and discharge. ]{\textbf{S2. Information about genes DE between admission and discharge. }   }
+\label{tab:ch04-s2}
+\end{table}
